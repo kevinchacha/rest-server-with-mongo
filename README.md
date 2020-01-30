@@ -1,50 +1,50 @@
-# Servidor RESTful con NodeJS
+# servidor restful con nodejs
 
 En este servidor se podrá hacer peticiones para modificar los registros de una base moongosee de datos local
-o en línea a traves de llamados GET,POST,PUT Y DELETE.
-Recuerda instalar los paquetes
+o en línea a traves de llamados get,post,put y delete.
+recuerda instalar los paquetes
 
 ```
 npm install
 ```
-EJECUCION
+ejecucion
 
 ```
 node server/server
 ```
 
-LISTAR USAURIOS
-LLAMADO GET
+Listar usaurios
+llamado get
 ```
 localhost:[puerto_asignado]/usuario
 ```
-REGISTRAR USAURIOS
-LLAMADO POST
+Registrar usaurios
+llamado post
 ```
 localhost:[puerto_asignado]/usuario
-INGRESOS:
+ingresos:
     nombre-
     email-
     password-
-    role-'ADMIN_ROLE' o 'USER_ROLE'
+    role-'admin_role' o 'user_role'
     img-
 ```
-EDITAR USAURIOS
-LLAMADO PUT
+Editar usaurios
+llamado put
 ```
 localhost:[puerto_asignado]/usuario/:id
-INGRESOS:
+ingresos:
     nombre-
     email-
     password-
-    role-'ADMIN_ROLE' o 'USER_ROLE'
+    role-'admin_role' o 'user_role'
     img-
 ```
 
-ELIMINAR USAURIOS
-LLAMADO DELETE
-NOTA: ESTA PETICION NO ES BUENA PARA BASES DE DATOS, NO ES BUENO ELIMINAR DATOS DE LA BASE
-DADO QUE SIEMPRE ES BUENO TENER UN BUEN REGISTRO DE TODOS LOS SUCESOS.
+Eliminar usaurios
+llamado delete
+nota: esta peticion no es buena para bases de datos, no es bueno eliminar datos de la base
+dado que siempre es bueno tener un buen registro de todos los sucesos.
 ```
 localhost:[puerto_asignado]/usuario/:id
 
